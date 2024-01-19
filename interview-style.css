@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'blvncregular';
+    src: url('fonts/blvnc-regular-webfont.woff2') format('woff2'),
+         url('blvnc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::selection{
+    background-color: black;
+    color: red;
+}
+
+body{
+    
+    margin-top: 60px; 
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+h4{
+    font-family: 'blvncregular', normal;
+    font-style:initial;    
+}
+
+p{
+    font-family: 'blvncregular', normal;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+}
+
+span{
+    background-color: dodgerblue;
+    color: background;
+}
+
+.question{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50vw;
+    max-width: 500px;
+    text-decoration: underline black;
+    margin-top: 15px;
+    text-indent: -3vw;
+    
+}
+
+.answer{
+    width: 50vw;
+    max-width: 650px;
+    text-indent: -3vw;
+}
+
+.indent{
+    text-indent: 8vw;
+}
+
+.title{
+    margin-top: 100px ;
+    position: sticky;
+    top: 100px;
+}
+
