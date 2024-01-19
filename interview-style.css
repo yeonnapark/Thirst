@@ -16,6 +16,7 @@ body{
     margin-top: 60px; 
     margin-left: 20vw;
     margin-right: 20vw;
+    background-image: url("Thirst/source/back.png");
 }
 
 h4{
@@ -35,7 +36,7 @@ p{
 }
 
 span{
-    background-color: dodgerblue;
+    background-color: red;
     color: background;
 }
 
